@@ -77,20 +77,6 @@ O Testbench foi implementado para simular o comportamento do módulo `timer`. El
 - `t_valid`: Indica se a saída do contador é válida.
 - `t_out`: Saída de 16 bits com o valor do contador.
 
-## Estrutura do Projeto
-
-A estrutura do projeto é a seguinte:
-
-/src
-|– timer.v         // Módulo Timer
-|– fibonacci.v     // Módulo Fibonacci
-|– wrapper.v       // Módulo Wrapper
-|– top.v           // Módulo Top com Máquina de Estados
-|– edge_detector.v // Módulo de Detecção de Bordas
-|– dcm.v           // Módulo de Controle de Clock (DCM)
-|– dm.v            // Módulo de Controlador de Displays
-|– testbench.v     // Testbench do Timer
-
 ## Como Rodar
 
 1. Clone o repositório ou faça o download dos arquivos Verilog.
